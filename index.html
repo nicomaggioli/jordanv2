@@ -44,150 +44,173 @@
     </div>
   </section>
 
-  <!-- Hero / Save the Date -->
+  <!-- Hero / Save the Date — image LEFT, text RIGHT -->
   <section class="hero">
     <div class="container">
-      <div class="hero-card">
-        <div class="hero-image">
-          <span class="hero-image-placeholder">IMAGE OF ME AS A KID</span>
-          <div class="hero-image-overlay">
-            <p class="save-the-date">Save the Date &sol;&sol; June 15, 2026</p>
+      <div class="zigzag-row">
+        <div class="zigzag-media">
+          <div class="hero-image">
+            <span class="hero-image-placeholder">IMAGE OF ME AS A KID</span>
+            <div class="hero-image-overlay">
+              <p class="save-the-date">Save the Date &sol;&sol; June 15, 2026</p>
+            </div>
           </div>
         </div>
-        <a href="#rsvp" class="rsvp-link">RSVP Link</a>
+        <div class="zigzag-text">
+          <h2 class="section-label">Save the Date</h2>
+          <p class="section-description">
+            Join us for an unforgettable evening celebrating Jordan's 50th birthday. Mark your calendars and get ready for a night filled with great food, drinks, and memories. More details to follow soon.
+          </p>
+          <a href="#rsvp" class="rsvp-link">RSVP Link</a>
+        </div>
       </div>
-      <p class="section-description">
-        Join us for an unforgettable evening celebrating Jordan's 50th birthday. Mark your calendars and get ready for a night filled with great food, drinks, and memories. More details to follow soon.
-      </p>
     </div>
   </section>
 
-  <!-- Agenda -->
+  <!-- Agenda — text LEFT, carousel RIGHT -->
   <section class="section" id="agenda">
     <div class="container">
-      <h2 class="section-label">Agenda</h2>
-      <div class="carousel">
-        <div class="carousel-track-wrapper">
-          <div class="carousel-track">
-            <div class="carousel-slide active">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>Welcome Reception</h3>
-                  <p class="slide-time">5:00 PM &mdash; 6:00 PM</p>
-                  <p>Cocktails, appetizers, and good vibes to kick off the celebration.</p>
+      <div class="zigzag-row zigzag-reverse">
+        <div class="zigzag-media">
+          <div class="carousel">
+            <div class="carousel-track-wrapper">
+              <div class="carousel-track">
+                <div class="carousel-slide active">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>Welcome Reception</h3>
+                      <p class="slide-time">5:00 PM &mdash; 6:00 PM</p>
+                      <p>Cocktails, appetizers, and good vibes to kick off the celebration.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>Dinner &amp; Toasts</h3>
+                      <p class="slide-time">6:00 PM &mdash; 8:00 PM</p>
+                      <p>A seated dinner followed by heartfelt toasts from friends and family.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>Dance Party</h3>
+                      <p class="slide-time">8:00 PM &mdash; Late</p>
+                      <p>Live DJ, open bar, and a dance floor that won't quit.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-slide">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>Dinner &amp; Toasts</h3>
-                  <p class="slide-time">6:00 PM &mdash; 8:00 PM</p>
-                  <p>A seated dinner followed by heartfelt toasts from friends and family.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-slide">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>Dance Party</h3>
-                  <p class="slide-time">8:00 PM &mdash; Late</p>
-                  <p>Live DJ, open bar, and a dance floor that won't quit.</p>
-                </div>
-              </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-btn-prev" aria-label="Previous">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              </button>
+              <button class="carousel-btn carousel-btn-next" aria-label="Next">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
             </div>
           </div>
         </div>
-        <div class="carousel-controls">
-          <button class="carousel-btn carousel-btn-prev" aria-label="Previous">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          </button>
-          <button class="carousel-btn carousel-btn-next" aria-label="Next">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </button>
+        <div class="zigzag-text">
+          <h2 class="section-label">Agenda</h2>
+          <p class="section-description">
+            The evening kicks off with cocktails and appetizers before moving into a seated dinner with toasts. After that, the dance floor opens up and the party goes late. Dress code is festive cocktail.
+          </p>
         </div>
       </div>
-      <p class="section-description">
-        The evening kicks off with cocktails and appetizers before moving into a seated dinner with toasts. After that, the dance floor opens up and the party goes late. Dress code is festive cocktail.
-      </p>
     </div>
   </section>
 
-  <!-- Location -->
+  <!-- Location — image LEFT, text RIGHT -->
   <section class="section" id="location">
     <div class="container">
-      <h2 class="section-label">Location</h2>
-      <div class="map-card">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.0!2d-71.0636!3d42.3425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0e3c2b1c3f%3A0x5e1d3f1a0a3b1c3f!2s519%20Albany%20St%20%23101%2C%20Boston%2C%20MA%2002118!5e0!3m2!1sen!2sus!4v1700000000000"
-          width="100%"
-          height="100%"
-          style="border:0; border-radius: 8px;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+      <div class="zigzag-row">
+        <div class="zigzag-media">
+          <div class="map-card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.0!2d-71.0636!3d42.3425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0e3c2b1c3f%3A0x5e1d3f1a0a3b1c3f!2s519%20Albany%20St%20%23101%2C%20Boston%2C%20MA%2002118!5e0!3m2!1sen!2sus!4v1700000000000"
+              width="100%"
+              height="100%"
+              style="border:0; border-radius: 8px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+        <div class="zigzag-text">
+          <h2 class="section-label">Location</h2>
+          <p class="section-description">
+            The celebration will be held at a stunning waterfront venue in downtown Boston. Full address and directions will be sent with your invitation. Parking and rideshare info included.
+          </p>
+        </div>
       </div>
-      <p class="section-description">
-        The celebration will be held at a stunning waterfront venue in downtown Boston. Full address and directions will be sent with your invitation. Parking and rideshare info included.
-      </p>
     </div>
   </section>
 
-  <!-- Lodging -->
+  <!-- Lodging — text LEFT, carousel RIGHT -->
   <section class="section" id="lodging">
     <div class="container">
-      <h2 class="section-label">Lodging</h2>
-      <div class="carousel" id="lodgingCarousel">
-        <div class="carousel-track-wrapper">
-          <div class="carousel-track">
-            <div class="carousel-slide active">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>The Revolution Hotel</h3>
-                  <p class="slide-time">0.3 miles from venue</p>
-                  <p>Boutique hotel in the South End, steps from the venue. Modern rooms at a great price.</p>
+      <div class="zigzag-row zigzag-reverse">
+        <div class="zigzag-media">
+          <div class="carousel" id="lodgingCarousel">
+            <div class="carousel-track-wrapper">
+              <div class="carousel-track">
+                <div class="carousel-slide active">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>The Revolution Hotel</h3>
+                      <p class="slide-time">0.3 miles from venue</p>
+                      <p>Boutique hotel in the South End, steps from the venue. Modern rooms at a great price.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>YOTEL Boston</h3>
+                      <p class="slide-time">0.8 miles from venue</p>
+                      <p>Smart, stylish rooms in the Seaport District. Rooftop terrace with skyline views.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&h=800&fit=crop');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-text">
+                      <h3>The Godfrey Hotel</h3>
+                      <p class="slide-time">1.0 miles from venue</p>
+                      <p>Upscale downtown hotel near Boston Common. Group block reserved under "Jordan 50th."</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-slide">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>YOTEL Boston</h3>
-                  <p class="slide-time">0.8 miles from venue</p>
-                  <p>Smart, stylish rooms in the Seaport District. Rooftop terrace with skyline views.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-slide">
-              <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&h=800&fit=crop');">
-                <div class="slide-overlay"></div>
-                <div class="slide-text">
-                  <h3>The Godfrey Hotel</h3>
-                  <p class="slide-time">1.0 miles from venue</p>
-                  <p>Upscale downtown hotel near Boston Common. Group block reserved under "Jordan 50th."</p>
-                </div>
-              </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-btn-prev" aria-label="Previous">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              </button>
+              <button class="carousel-btn carousel-btn-next" aria-label="Next">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
             </div>
           </div>
         </div>
-        <div class="carousel-controls">
-          <button class="carousel-btn carousel-btn-prev" aria-label="Previous">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          </button>
-          <button class="carousel-btn carousel-btn-next" aria-label="Next">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </button>
+        <div class="zigzag-text">
+          <h2 class="section-label">Lodging</h2>
+          <p class="section-description">
+            We've arranged group rates at several nearby hotels for your convenience. Book early to secure the best rates. Reservation links will be included in your invitation.
+          </p>
         </div>
       </div>
-      <p class="section-description">
-        We've arranged group rates at several nearby hotels for your convenience. Book early to secure the best rates. Reservation links will be included in your invitation.
-      </p>
     </div>
   </section>
 
